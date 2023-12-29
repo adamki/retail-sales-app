@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 
-import Panel from './Panel';
 import Product from './Product';
 import { useAppDispatch } from './app/hooks';
 import stacklineLogo from './assets/stacklineLogo.svg';
@@ -22,14 +21,15 @@ const App = (): JSX.Element => {
         </a>
       </header>
 
-      <div className={`bg-neutral-100 flex flex-grow px-2 py-12`}>
-				<Panel>
-					<Product />
-				</Panel>
+      <div className='bg-neutral-100 flex flex-1 px-2 py-12'>
+        <aside className='w-1/5 flex flex-col justify-start shadow-lg m-4 bg-white'>
+          <Product />
+        </aside>
 
-        <Panel>
-					<p className={`text-blue-950 text-xl font-bold`}>Retail Sales</p>
-        </Panel>
+        <main className='w-4/5 flex flex-col bg-white justify-center shadow-lg m-4 p-4'>
+					<h2 className='mb-4 text-xl font-bold'>Retail Sales</h2>
+					<p>ChartContent</p>
+        </main>
       </div>
     </div>
   );
