@@ -1,8 +1,8 @@
 {
   "plugins": [
-		"prettier-plugin-tailwindcss",
-		"@trivago/prettier-plugin-sort-imports"
-	],
+    "prettier-plugin-tailwindcss",
+    "@trivago/prettier-plugin-sort-imports"
+  ],
   "arrowParens": "avoid",
   "bracketSpacing": true,
   "htmlWhitespaceSensitivity": "css",
@@ -18,7 +18,12 @@
   "tabWidth": 2,
   "trailingComma": "all",
   "useTabs": false,
-  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrder": [
+    "^@core/(.*)$",
+    "^@server/(.*)$",
+    "^@ui/(.*)$",
+    "^[./]"
+  ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true
 }

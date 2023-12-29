@@ -59,7 +59,7 @@ const initialState: ISalesState = {
 };
 
 export const fetchSales = createAsyncThunk('sales/fetchSales', async () => {
-  const response = await fetch('src/data/sales.json');
+  const response = await fetch('sales.json');
   const data = await response.json();
 
   return data[0];
