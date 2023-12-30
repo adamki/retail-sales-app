@@ -1,24 +1,33 @@
+#  Welcome 😎
 
-## What's inside?
+Feel free to view the deployed version on [Netlify](https://main--timely-brioche-b48ed4.netlify.app/)
 
-- [ReactJS](https://reactjs.org)
-- [Vite](https://vitejs.dev)
-- [TypeScript](https://www.typescriptlang.org)
-- [Tailwind](https://tailwindcss.com/)
-- [RTK](https://redux-toolkit.js.org/)
-- [ESLint](https://eslint.org)
+To run locally:
+```
+## Clone the repo:
+$  git clone git@github.com:adamki/retail-sales-app.git
 
-## Getting started
+## Install Dependencies
+$  npm i
 
+## Start local Server on  http://localhost:5173/
+$  npm run dev
 
-```bash
-git clone https://github.com/IsaiaPhiliph/vite-reactts-tailwind-rtk-eslint.git
-cd vite-reactts-tailwind-rtk-eslint
-rm -rf .git
-git init
-npm i
-npm run dev
-npm run build
-npm run serve
 ```
 
+# Goals
+
+We are looking for:
+1. A solution that resembles the provided mockup closely and implements AT LEAST ONE of either the graph or table as seen in the mockup - ✅
+2. A working solution that takes the provided JSON file as output from a mock API call - ✅
+3. A solution that implements React and Redux best practices and patterns - ✅
+4. Clean, easy to follow code - ✅
+
+Nice to haves:
+1. Typescript - ✅
+2. Functional components - ✅
+3. Additional functionality in the graph or table, e.g. sorting, overlays...
+
+Assets to be returned via email within the provided time frame:
+1. A public git repository to view the final code - ✅
+2. A public URL to view the web page --- can be hosted on GitHub Pages, AWS, Vercel, etc. - ✅
